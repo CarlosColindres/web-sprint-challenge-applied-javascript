@@ -16,6 +16,7 @@ axios.get('https://lambda-times-api.herokuapp.com/articles')
         })
     }
 })
+.catch(e => console.log(e))
 
 //
 // Write a function that takes a single article object and returns the following markup:
